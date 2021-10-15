@@ -8,11 +8,11 @@ var greetfirework, greetfireworkImage;
 
 function preload()
 {
-    ravanaImage = loadImage('ravana.png');
-    bowImage = loadAnimation('Dusshera_bow0.png', 'Dusshera_bow1.png', 'Dusshera_bow2.png', 'Dusshera_bow3.png', 'Dusshera_bow4.png', 'Dusshera_bow5.png', 'Dusshera_bow6.png', 'Dusshera_bow7.png', 'Dusshera_bow8.png');
-    greetfireworkImage = loadAnimation('fireworks_dusshera.png', 'fireworks_dusshera0.PNG', 'fireworks_dusshera1.PNG', 'fireworks_dusshera2.PNG', 'fireworks_dusshera3.PNG');
+    ravanaImage = loadImage('Images/ravana.png');
+    bowImage = loadAnimation('Images/Dusshera_bow0.png', 'Images/Dusshera_bow1.png', 'Images/Dusshera_bow2.png', 'Images/Dusshera_bow3.png', 'Images/Dusshera_bow4.png', 'Images/Dusshera_bow5.png', 'Images/Dusshera_bow6.png', 'Images/Dusshera_bow7.png', 'Images/Dusshera_bow8.png');
+    greetfireworkImage = loadAnimation('Images/fireworks_dusshera0.PNG', 'Images/fireworks_dusshera1.PNG', 'Images/fireworks_dusshera2.PNG', 'Images/fireworks_dusshera3.PNG');
     // song = loadSound('y2mate.com - Happy New Year 2020  Happy New Year Songs 2020  Top Happy New Year Songs Playlist 2020-[AudioTrimmer.com].mp3');
-    fireWorks = createImg('fireworks_gif.gif');
+    fireWorks = createImg('Images/fireworks_gif.gif');
 }
 
 
@@ -56,13 +56,14 @@ function draw()
     fireWorks.position(176, 446);
     fireWorks.size(0, 0);
 
-    fill('turquoise');
+    fill('aquamarine');
     textSize(20);
-    text('BY- Abhinav Mishra || Abhi_Codz', 200, 50);
+    text('BY- Abhinav Mishra || Abhi_Codz', 200, 45);
 
     fill('red');
     textSize(33);
     text('HAPPY DUSSHERA TO ALL!', 60, 580);
+
 
     drawSprites();
 }
